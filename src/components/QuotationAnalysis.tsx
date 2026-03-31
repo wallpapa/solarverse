@@ -12,7 +12,7 @@ const QUOTES = {
     name: 'String 30kW 3P',
     vendor: 'TCS Power Plus Co., Ltd.',
     date: '23/03/2026',
-    salesperson: 'à¸£à¸±à¸à¸à¸´à¸¡à¸² à¸¢à¹à¸³à¸à¸¡',
+    salesperson: 'รัตติมา ย่ำคม',
     systemKW: 30,
     panels: { model: 'Aiko 645W (Tier 1)', qty: 48, totalW: 30960 },
     inverter: { model: 'HUAWEI SUN2000-M3', power: '30kW', phase: '3 Phase' },
@@ -21,20 +21,20 @@ const QUOTES = {
     totalPrice: 495000,
     hasOptimizer: false,
     warranty: {
-      panel: '15 à¸à¸µ à¸­à¸¸à¸à¸à¸£à¸à¹ / 30 à¸à¸µ à¸à¸¥à¸´à¸à¹à¸ 80%',
-      inverter: '10 à¸à¸µ à¸à¸²à¸ Huawei',
-      installation: '5 à¸à¸µ',
-      roof: '5 à¸à¸µ',
+      panel: '15 ปี อุปกรณ์ / 30 ปี ผลิตไฟ 80%',
+      inverter: '10 ปี จาก Huawei',
+      installation: '5 ปี',
+      roof: '5 ปี',
     },
     includes: [
       'Smart Meter DTSU666-H (3 phase)',
       'Solar Combiner 3 Phase + SPD',
-      'à¸à¸´à¸à¸à¸±à¹à¸ Solar Rooftop + à¹à¸à¸´à¸à¸ªà¸²à¸¢',
-      'SLD + à¸§à¸´à¸¨à¸§à¸à¸£à¸¥à¸à¸à¸²à¸¡',
-      'à¸à¸­à¸­à¸à¸¸à¸à¸²à¸ MEA/PEA',
-      'à¸¥à¹à¸²à¸à¹à¸à¸ + PM 5 à¸à¸µ (à¸à¸µà¸¥à¸° 1 à¸à¸£à¸±à¹à¸)',
-      'à¸à¸²à¸à¹à¸²à¸¢à¸à¸±à¸à¸à¸à¸ªà¸³à¸«à¸£à¸±à¸à¹à¸à¸',
-      'Zero Export (à¸à¸±à¸à¸¢à¹à¸­à¸)',
+      'ติดตั้ง Solar Rooftop + เดินสาย',
+      'SLD + วิศวกรลงนาม',
+      'ขออนุญาต MEA/PEA',
+      'ล้างแผง + PM 5 ปี (ปีละ 1 ครั้ง)',
+      'ตาข่ายกันนกสำหรับแผง',
+      'Zero Export (กันย้อน)',
     ],
   },
   B: {
@@ -42,7 +42,7 @@ const QUOTES = {
     name: 'String 30kW 3P + Optimizer',
     vendor: 'TCS Power Plus Co., Ltd.',
     date: '23/03/2026',
-    salesperson: 'à¸£à¸±à¸à¸à¸´à¸¡à¸² à¸¢à¹à¸³à¸à¸¡',
+    salesperson: 'รัตติมา ย่ำคม',
     systemKW: 30,
     panels: { model: 'Aiko 645W (Tier 1)', qty: 48, totalW: 30960 },
     inverter: { model: 'HUAWEI SUN2000-M3', power: '30kW', phase: '3 Phase' },
@@ -53,31 +53,31 @@ const QUOTES = {
     optimizer: {
       model: 'Huawei SUN2000-600W-P',
       benefits: [
-        'à¹à¸à¹à¸à¸±à¸à¸«à¸²à¹à¸à¸²à¸à¸±à¸ à¹à¸à¸´à¹à¸¡à¸à¸¥à¸à¸¥à¸´à¸à¹à¸à¹à¸à¸¶à¸ 25%',
-        'Rapid Stopper (NEC2017) â à¸à¸¥à¸­à¸à¸ à¸±à¸¢à¸à¸¶à¹à¸',
-        'à¸à¸£à¸§à¸à¸ªà¸­à¸à¸à¸¥à¸à¸¥à¸´à¸à¸£à¸²à¸¢à¹à¸à¸à¸à¹à¸²à¸ FusionSolar',
-        'à¹à¸à¹ mismatch loss à¸à¸²à¸à¸«à¸¥à¸±à¸à¸à¸²à¹à¸¡à¹à¹à¸à¹à¸²à¸à¸±à¸',
-        'Long String Design â à¸¥à¸à¸à¸³à¸à¸§à¸ String',
-        'IP68 â à¸à¸à¸à¹à¸³/à¸à¸¸à¹à¸',
+        'แก้ปัญหาเงาบัง เพิ่มผลผลิตได้ถึง 25%',
+        'Rapid Stopper (NEC2017) — ปลอดภัยขึ้น',
+        'ตรวจสอบผลผลิตรายแผงผ่าน FusionSolar',
+        'แก้ mismatch loss จากหลังคาไม่เท่ากัน',
+        'Long String Design — ลดจำนวน String',
+        'IP68 — ทนน้ำ/ฝุ่น',
       ],
-      warranty: '25 à¸à¸µ',
+      warranty: '25 ปี',
     },
     warranty: {
-      panel: '15 à¸à¸µ à¸­à¸¸à¸à¸à¸£à¸à¹ / 30 à¸à¸µ à¸à¸¥à¸´à¸à¹à¸ 80%',
-      inverter: '10 à¸à¸µ à¸à¸²à¸ Huawei',
-      installation: '5 à¸à¸µ',
-      roof: '5 à¸à¸µ',
-      optimizer: '25 à¸à¸µ',
+      panel: '15 ปี อุปกรณ์ / 30 ปี ผลิตไฟ 80%',
+      inverter: '10 ปี จาก Huawei',
+      installation: '5 ปี',
+      roof: '5 ปี',
+      optimizer: '25 ปี',
     },
     includes: [
       'Smart Meter DTSU666-H (3 phase)',
       'Solar Combiner 3 Phase + SPD',
-      'à¸à¸´à¸à¸à¸±à¹à¸ Solar Rooftop + à¹à¸à¸´à¸à¸ªà¸²à¸¢',
-      'SLD + à¸§à¸´à¸¨à¸§à¸à¸£à¸¥à¸à¸à¸²à¸¡',
-      'à¸à¸­à¸­à¸à¸¸à¸à¸²à¸ MEA/PEA',
-      'à¸¥à¹à¸²à¸à¹à¸à¸ + PM 5 à¸à¸µ (à¸à¸µà¸¥à¸° 1 à¸à¸£à¸±à¹à¸)',
-      'à¸à¸²à¸à¹à¸²à¸¢à¸à¸±à¸à¸à¸à¸ªà¸³à¸«à¸£à¸±à¸à¹à¸à¸',
-      'Zero Export (à¸à¸±à¸à¸¢à¹à¸­à¸)',
+      'ติดตั้ง Solar Rooftop + เดินสาย',
+      'SLD + วิศวกรลงนาม',
+      'ขออนุญาต MEA/PEA',
+      'ล้างแผง + PM 5 ปี (ปีละ 1 ครั้ง)',
+      'ตาข่ายกันนกสำหรับแผง',
+      'Zero Export (กันย้อน)',
       'Huawei Smart PV Optimizer',
     ],
   },
@@ -212,7 +212,7 @@ export default function QuotationAnalysis() {
   const savingsPct = ((savings / MARKET.engineDefault) * 100).toFixed(1);
 
   // === Charts ===
-  const labels25 = Array.from({ length: 25 }, (_, i) => `à¸à¸µ ${i + 1}`);
+  const labels25 = Array.from({ length: 25 }, (_, i) => `ปี ${i + 1}`);
 
   // Chart 1: Quote vs Engine default cumulative (no battery)
   const compareConfig: ChartConfiguration = useMemo(() => {
@@ -224,7 +224,7 @@ export default function QuotationAnalysis() {
         labels: labels25,
         datasets: [
           {
-            label: `à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸ (${fmt(MARKET.engineDefault)} à¸¿)`,
+            label: `ราคาตลาด (${fmt(MARKET.engineDefault)} ฿)`,
             data: cfEngine.map(c => c.cum),
             borderColor: '#ff453a',
             borderWidth: 2,
@@ -233,7 +233,7 @@ export default function QuotationAnalysis() {
             borderDash: [5, 5],
           },
           {
-            label: `à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² TCS (${fmt(quotePrice)} à¸¿)`,
+            label: `ใบเสนอราคา TCS (${fmt(quotePrice)} ฿)`,
             data: cfQuote.map(c => c.cum),
             borderColor: '#30d158',
             borderWidth: 3,
@@ -241,7 +241,7 @@ export default function QuotationAnalysis() {
             tension: 0.3,
           },
           {
-            label: 'à¸à¸¸à¸à¸à¸¸à¹à¸¡à¸à¸¸à¸',
+            label: 'จุดคุ้มทุน',
             data: Array(25).fill(0),
             borderColor: '#333',
             borderDash: [5, 5],
@@ -253,7 +253,7 @@ export default function QuotationAnalysis() {
       options: {
         plugins: { legend: { position: 'bottom' } },
         scales: {
-          y: { title: { display: true, text: 'à¸à¸²à¸ (à¸ªà¸°à¸ªà¸¡)' }, ticks: { callback: (v: unknown) => fmt(v as number) } },
+          y: { title: { display: true, text: 'บาท (สะสม)' }, ticks: { callback: (v: unknown) => fmt(v as number) } },
         },
       },
     };
@@ -280,7 +280,7 @@ export default function QuotationAnalysis() {
     options: {
       plugins: { legend: { position: 'bottom' } },
       scales: {
-        y: { title: { display: true, text: 'à¸à¸³à¹à¸£à¸ªà¸°à¸ªà¸¡ (à¸à¸²à¸)' }, ticks: { callback: (v: unknown) => fmt(v as number) } },
+        y: { title: { display: true, text: 'กำไรสะสม (บาท)' }, ticks: { callback: (v: unknown) => fmt(v as number) } },
       },
     },
   }), [selectedRate, quotePrice]);
@@ -289,9 +289,9 @@ export default function QuotationAnalysis() {
   const priceCompareConfig: ChartConfiguration = {
     type: 'bar',
     data: {
-      labels: ['à¸à¸¥à¸²à¸ à¸à¹à¸³à¸ªà¸¸à¸', 'TCS Power Plus', 'à¸à¸¥à¸²à¸ à¹à¸à¸¥à¸µà¹à¸¢', 'à¸£à¸²à¸à¸² Engine', 'à¸à¸¥à¸²à¸ à¸ªà¸¹à¸à¸ªà¸¸à¸'],
+      labels: ['ตลาด ต่ำสุด', 'TCS Power Plus', 'ตลาด เฉลี่ย', 'ราคา Engine', 'ตลาด สูงสุด'],
       datasets: [{
-        label: 'à¸à¸²à¸/à¸§à¸±à¸à¸à¹',
+        label: 'บาท/วัตต์',
         data: [MARKET.low, +perWattQuote.toFixed(1), MARKET.avg, +perWattEngine.toFixed(1), MARKET.high],
         backgroundColor: [
           'rgba(48,209,88,0.3)', 'rgba(255,159,10,0.8)', 'rgba(134,134,139,0.3)',
@@ -305,7 +305,7 @@ export default function QuotationAnalysis() {
     options: {
       plugins: { legend: { display: false } },
       scales: {
-        y: { title: { display: true, text: 'à¸à¸²à¸/à¸§à¸±à¸à¸à¹' }, beginAtZero: true },
+        y: { title: { display: true, text: 'บาท/วัตต์' }, beginAtZero: true },
       },
     },
   };
@@ -317,7 +317,7 @@ export default function QuotationAnalysis() {
       labels: filtered.map(s => s.stratLabel),
       datasets: [
         {
-          label: 'IRR à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸',
+          label: 'IRR ราคาตลาด',
           data: filtered.map(s => +(s.irr * 100).toFixed(1)),
           backgroundColor: 'rgba(255,69,58,0.4)',
           borderColor: '#ff453a',
@@ -325,7 +325,7 @@ export default function QuotationAnalysis() {
           borderRadius: 6,
         },
         {
-          label: 'IRR à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² TCS',
+          label: 'IRR ใบเสนอราคา TCS',
           data: filtered.map(s => +(s.irrQuote * 100).toFixed(1)),
           backgroundColor: 'rgba(48,209,88,0.6)',
           borderColor: '#30d158',
@@ -337,7 +337,7 @@ export default function QuotationAnalysis() {
     options: {
       plugins: { legend: { position: 'bottom' } },
       scales: {
-        y: { title: { display: true, text: 'IRR (%/à¸à¸µ)' }, beginAtZero: true },
+        y: { title: { display: true, text: 'IRR (%/ปี)' }, beginAtZero: true },
       },
     },
   }), [filtered]);
@@ -347,18 +347,18 @@ export default function QuotationAnalysis() {
       {/* Header */}
       <div className="rounded-3xl p-6 mb-6" style={{ background: 'linear-gradient(135deg, rgba(255,159,10,0.12), rgba(191,90,242,0.08))' }}>
         <h2 className="text-[#ff9f0a] font-bold text-base mb-3">
-          ð à¸§à¸´à¹à¸à¸£à¸²à¸°à¸«à¹à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² â TCS Power Plus
+          📋 วิเคราะห์ใบเสนอราคา — TCS Power Plus
         </h2>
         <p className="text-[14px] text-[#c8c8cc] leading-relaxed">
-          à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸ <strong className="text-[#f5f5f7]">2 à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²</strong> à¸à¸²à¸ TCS Power Plus (23 à¸¡à¸µ.à¸. 2026) à¸à¸±à¸à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸à¹à¸¥à¸° Engine Model â{' '}
-          à¸£à¸²à¸à¸²à¸à¸£à¸´à¸ <strong className="text-[#30d158]">{fmt(quotePrice)} à¸à¸²à¸</strong>{' '}
-          à¸à¸¹à¸à¸à¸§à¹à¸²à¸£à¸²à¸à¸² Model <strong className="text-[#ff453a]">{savingsPct}%</strong> ({fmt(savings)} à¸à¸²à¸){' '}
-          à¸à¸³à¹à¸«à¹ <strong className="text-[#bf5af2]">IRR à¸ªà¸¹à¸à¸à¸¶à¹à¸</strong> à¹à¸¥à¸° <strong className="text-[#30d158]">à¸à¸·à¸à¸à¸¸à¸à¹à¸£à¹à¸§à¸à¸¶à¹à¸</strong> à¸à¸¸à¸ Scenario
+          เปรียบเทียบ <strong className="text-[#f5f5f7]">2 ใบเสนอราคา</strong> จาก TCS Power Plus (23 มี.ค. 2026) กับราคาตลาดและ Engine Model —{' '}
+          ราคาจริง <strong className="text-[#30d158]">{fmt(quotePrice)} บาท</strong>{' '}
+          ถูกกว่าราคา Model <strong className="text-[#ff453a]">{savingsPct}%</strong> ({fmt(savings)} บาท){' '}
+          ทำให้ <strong className="text-[#bf5af2]">IRR สูงขึ้น</strong> และ <strong className="text-[#30d158]">คืนทุนเร็วขึ้น</strong> ทุก Scenario
         </p>
       </div>
 
       {/* ===== SECTION 1: Quote Cards ===== */}
-      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸ 2 à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²</h3>
+      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">เปรียบเทียบ 2 ใบเสนอราคา</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
         {/* Quote A */}
         <div className="rounded-2xl overflow-hidden border border-[#2a2a2a]">
@@ -370,19 +370,19 @@ export default function QuotationAnalysis() {
               </div>
               <div className="text-right">
                 <div className="text-2xl font-black text-white">{fmt(QUOTES.A.totalPrice)}</div>
-                <div className="text-xs opacity-70">à¸à¸²à¸ (à¸£à¸§à¸¡ VAT)</div>
+                <div className="text-xs opacity-70">บาท (รวม VAT)</div>
               </div>
             </div>
           </div>
           <div className="p-5 bg-[#111] space-y-0 text-[13px]">
             {[
-              ['à¹à¸à¸à¹à¸à¸¥à¸²à¸£à¹', `${QUOTES.A.panels.model} Ã ${QUOTES.A.panels.qty}`],
-              ['à¸à¸³à¸¥à¸±à¸à¸à¸¥à¸´à¸à¸à¸£à¸´à¸', `${(QUOTES.A.panels.totalW / 1000).toFixed(1)} kW`],
+              ['แผงโซลาร์', `${QUOTES.A.panels.model} × ${QUOTES.A.panels.qty}`],
+              ['กำลังผลิตจริง', `${(QUOTES.A.panels.totalW / 1000).toFixed(1)} kW`],
               ['Inverter', QUOTES.A.inverter.model],
-              ['Optimizer', 'â à¹à¸¡à¹à¸¡à¸µ'],
-              ['à¸£à¸²à¸à¸²/à¸§à¸±à¸à¸à¹', `${(QUOTES.A.totalPrice / QUOTES.A.panels.totalW).toFixed(1)} à¸à¸²à¸/W`],
-              ['à¸à¸£à¸°à¸à¸±à¸à¹à¸à¸', QUOTES.A.warranty.panel],
-              ['à¸à¸£à¸°à¸à¸±à¸ Inverter', QUOTES.A.warranty.inverter],
+              ['Optimizer', '❌ ไม่มี'],
+              ['ราคา/วัตต์', `${(QUOTES.A.totalPrice / QUOTES.A.panels.totalW).toFixed(1)} บาท/W`],
+              ['ประกันแผง', QUOTES.A.warranty.panel],
+              ['ประกัน Inverter', QUOTES.A.warranty.inverter],
             ].map(([label, val], i) => (
               <div key={i} className="flex justify-between py-2.5 border-b border-[#1a1a1a]">
                 <span className="text-[#6e6e73]">{label}</span>
@@ -392,10 +392,10 @@ export default function QuotationAnalysis() {
           </div>
         </div>
 
-        {/* Quote B â Recommended */}
+        {/* Quote B — Recommended */}
         <div className="rounded-2xl overflow-hidden border-2 border-[#30d158] relative">
           <div className="absolute top-3 right-3 z-10 px-3 py-1 rounded-full text-[11px] font-bold" style={{ background: '#30d158', color: '#000' }}>
-            à¹à¸à¸°à¸à¸³
+            แนะนำ
           </div>
           <div className="px-6 py-4" style={{ background: 'linear-gradient(135deg, #30d158, #1e8449)' }}>
             <div className="flex justify-between items-center">
@@ -405,19 +405,19 @@ export default function QuotationAnalysis() {
               </div>
               <div className="text-right">
                 <div className="text-2xl font-black text-white">{fmt(QUOTES.B.totalPrice)}</div>
-                <div className="text-xs opacity-70">à¸à¸²à¸ (à¸£à¸§à¸¡ VAT)</div>
+                <div className="text-xs opacity-70">บาท (รวม VAT)</div>
               </div>
             </div>
           </div>
           <div className="p-5 bg-[#111] space-y-0 text-[13px]">
             {[
-              ['à¹à¸à¸à¹à¸à¸¥à¸²à¸£à¹', `${QUOTES.B.panels.model} Ã ${QUOTES.B.panels.qty}`],
-              ['à¸à¸³à¸¥à¸±à¸à¸à¸¥à¸´à¸à¸à¸£à¸´à¸', `${(QUOTES.B.panels.totalW / 1000).toFixed(1)} kW`],
+              ['แผงโซลาร์', `${QUOTES.B.panels.model} × ${QUOTES.B.panels.qty}`],
+              ['กำลังผลิตจริง', `${(QUOTES.B.panels.totalW / 1000).toFixed(1)} kW`],
               ['Inverter', QUOTES.B.inverter.model],
-              ['Optimizer', `â ${QUOTES.B.optimizer!.model}`],
-              ['à¸£à¸²à¸à¸²/à¸§à¸±à¸à¸à¹', `${(QUOTES.B.totalPrice / QUOTES.B.panels.totalW).toFixed(1)} à¸à¸²à¸/W`],
-              ['à¸à¸£à¸°à¸à¸±à¸à¹à¸à¸', QUOTES.B.warranty.panel],
-              ['à¸à¸£à¸°à¸à¸±à¸ Optimizer', QUOTES.B.warranty.optimizer || '-'],
+              ['Optimizer', `✅ ${QUOTES.B.optimizer!.model}`],
+              ['ราคา/วัตต์', `${(QUOTES.B.totalPrice / QUOTES.B.panels.totalW).toFixed(1)} บาท/W`],
+              ['ประกันแผง', QUOTES.B.warranty.panel],
+              ['ประกัน Optimizer', QUOTES.B.warranty.optimizer || '-'],
             ].map(([label, val], i) => (
               <div key={i} className="flex justify-between py-2.5 border-b border-[#1a1a1a]">
                 <span className="text-[#6e6e73]">{label}</span>
@@ -429,37 +429,37 @@ export default function QuotationAnalysis() {
       </div>
 
       {/* Site condition */}
-      <Alert type="info" title="à¸ªà¸ à¸²à¸à¸à¸·à¹à¸à¸à¸µà¹à¸à¸´à¸à¸à¸±à¹à¸ â à¹à¸¡à¹à¸¡à¸µà¹à¸à¸²à¸à¸±à¸">
-        à¹à¸à¸à¸à¸°à¸§à¸²à¸à¹à¸à¸¢<strong className="text-[#f5f5f7]">à¹à¸¡à¹à¸¡à¸µà¸ªà¹à¸§à¸à¸à¸µà¹à¸à¸°à¹à¸à¸à¹à¸à¸²à¸à¸±à¸</strong> â Optimizer à¸à¹à¸§à¸¢à¹à¸£à¸·à¹à¸­à¸à¹à¸à¸²à¸à¸°à¹à¸¡à¹à¹à¸à¹à¹à¸à¹à¸à¸£à¸°à¹à¸¢à¸à¸à¹à¸«à¸¥à¸±à¸ à¹à¸à¹à¸¢à¸±à¸à¸¡à¸µà¸à¹à¸­à¸à¸µ: à¸à¸£à¸§à¸à¸ªà¸­à¸à¸à¸¥à¸à¸¥à¸´à¸à¸£à¸²à¸¢à¹à¸à¸à¸à¹à¸²à¸ FusionSolar, Rapid Stopper (à¸à¸¥à¸­à¸à¸ à¸±à¸¢), à¹à¸à¹ mismatch loss.{' '}
-        à¸£à¸²à¸à¸²à¹à¸à¹à¸²à¸à¸±à¸à¸à¸±à¹à¸à¸ªà¸­à¸à¹à¸ ({fmt(quotePrice)} à¸à¸²à¸) â <strong className="text-[#30d158]">à¹à¸à¹à¸à¸£à¸µ à¹à¸¡à¹à¸à¹à¸­à¸à¸à¹à¸²à¸¢à¹à¸à¸´à¹à¸¡</strong>
+      <Alert type="info" title="สภาพพื้นที่ติดตั้ง — ไม่มีเงาบัง">
+        แผงจะวางโดย<strong className="text-[#f5f5f7]">ไม่มีส่วนที่จะโดนเงาบัง</strong> — Optimizer ช่วยเรื่องเงาจะไม่ได้ใช้ประโยชน์หลัก แต่ยังมีข้อดี: ตรวจสอบผลผลิตรายแผงผ่าน FusionSolar, Rapid Stopper (ปลอดภัย), แก้ mismatch loss.{' '}
+        ราคาเท่ากันทั้งสองใบ ({fmt(quotePrice)} บาภ) — <strong className="text-[#30d158]">ได้ฟรี ไม่ต้องจ่ายเพิ่ม</strong>
       </Alert>
 
       {/* 20kW + Battery recommendation */}
-      <Alert type="warn" title="à¸à¸³à¹à¸à¸°à¸à¸³à¸à¸²à¸ CEO â à¸à¹à¸²à¹à¸ªà¹ Battery à¹à¸à¸°à¸à¸³ 20kW MBO">
-        <strong className="text-[#f5f5f7]">à¸à¹à¸²à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸ªà¹ Battery à¸à¹à¸§à¸¢ â à¹à¸à¸°à¸à¸³à¸£à¸°à¸à¸ 20kW (SUN2000-20K-MB0)</strong> à¹à¸«à¸à¸¸à¸à¸¥: à¸£à¸°à¸à¸ 20kW à¸¡à¸µ Self-Use Rate à¸ªà¸¹à¸à¸à¸§à¹à¸² (55% vs 48%) à¹à¸¡à¸·à¹à¸­à¸£à¸§à¸¡à¸à¸±à¸ Battery à¸à¸°à¹à¸à¹à¹à¸à¸à¸µà¹à¸à¸¥à¸´à¸à¹à¸à¹à¸à¸¸à¹à¸¡à¸à¸§à¹à¸² à¸¥à¸à¸à¸¸à¸à¸à¹à¸­à¸¢à¸à¸§à¹à¸² à¸à¸·à¸à¸à¸¸à¸à¹à¸£à¹à¸§à¸à¸§à¹à¸².{' '}
-        <strong className="text-[#ff9f0a]">à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²à¸à¸µà¹à¹à¸à¹à¸ 30kW</strong> â à¸à¸§à¸£à¸à¸­à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² 20kW + Battery à¸à¸²à¸ TCS Power Plus à¹à¸à¸´à¹à¸¡à¹à¸à¸·à¹à¸­à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸
+      <Alert type="warn" title="คำแนะนำจาก CEO — ถ้าใส่ Battery แนะนำ 20kW MBO">
+        <strong className="text-[#f5f5f7]">ถ้าต้องการใส่ Battery ด้วย → แนะนำระบบ 20kW (SUN2000-20K-MB0)</strong> เหตุผฤ: ระบบ 20kW มี Self-Use Rate สูงกว่า (55% vs 48%) เมื่อรวมกับ Battery จะใช้ไฟที่ผลิตได้คุ้มกว่า ลงทุนน้อยกว่า คืนทุนเร็วกว่า.{' '}
+        <strong className="text-[#ff9f0a]">ใบเสนอราคานี้เป็น 30kW</strong> — ควรขอใบเสนอราคา 20kW + Battery จาก TCS Power Plus เพิ่มเพื่อเปรียบเทียบ
       </Alert>
 
       {/* ===== SECTION 2: Market Price Comparison ===== */}
-      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">à¹à¸à¸µà¸¢à¸à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸</h3>
+      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">เทียบราคาตลาด</h3>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        <BentoCard label="à¸£à¸²à¸à¸²à¹à¸à¹à¸ªà¸à¸­" value={`${perWattQuote.toFixed(1)}`} sub="à¸à¸²à¸/à¸§à¸±à¸à¸à¹" accent="orange" />
-        <BentoCard label="à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸à¹à¸à¸¥à¸µà¹à¸¢" value={`${MARKET.avg}`} sub="à¸à¸²à¸/à¸§à¸±à¸à¸à¹ (30kW)" accent="blue" />
-        <BentoCard label="à¸à¸¹à¸à¸à¸§à¹à¸² Engine" value={`${savingsPct}%`} sub={`à¸à¸£à¸°à¸«à¸¢à¸±à¸ ${fmt(savings)} à¸à¸²à¸`} accent="green" />
-        <BentoCard label="à¸£à¸²à¸à¸²à¸à¹à¸³à¸à¸§à¹à¸²à¸à¸¥à¸²à¸" value={`${((1 - perWattQuote / MARKET.avg) * 100).toFixed(0)}%`} sub="à¹à¸à¸µà¸¢à¸à¸£à¸²à¸à¸²à¹à¸à¸¥à¸µà¹à¸¢ 30kW" accent="purple" />
+        <BentoCard label="ราคาใบเสนอ" value={`${perWattQuote.toFixed(1)}`} sub="บาท/วัตต์" accent="orange" />
+        <BentoCard label="ราคาตลาดเฉลี่ย" value={`${MARKET.avg}`} sub="บาท/วัตต์ (30kW)" accent="blue" />
+        <BentoCard label="ถูกกว่า Engine" value={`${savingsPct}%`} sub={`ประหยัด ${fmt(savings)} บาท`} accent="green" />
+        <BentoCard label="ราคาต่ำกว่าตลาด" value={`${((1 - perWattQuote / MARKET.avg) * 100).toFixed(0)}%`} sub="เทียบราคาเฉลี่ย 30kW" accent="purple" />
       </div>
 
-      <Card title="ð à¹à¸à¸µà¸¢à¸à¸£à¸²à¸à¸²/à¸§à¸±à¸à¸à¹ à¸à¸±à¸à¸à¸¥à¸²à¸" className="mb-6">
+      <Card title="📊 เทียบราคา/วัตต์ กับตลาด" className="mb-6">
         <ChartWrapper config={priceCompareConfig} height="300px" />
       </Card>
 
       {/* ===== SECTION 3: Scenario Analysis with Real Quote ===== */}
-      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">à¸§à¸´à¹à¸à¸£à¸²à¸°à¸«à¹ Scenarios à¸à¸²à¸à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²à¸à¸£à¸´à¸</h3>
+      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">วิเคราะห์ Scenarios จากใบเสนอราคาจริง</h3>
 
       <SelectorRow>
         <Select
-          label="à¸ªà¸à¸²à¸à¸à¸²à¸£à¸à¹à¸à¹à¸²à¹à¸"
+          label="สถานการณ์ค่าไฟ"
           value={selectedRate}
           onChange={setSelectedRate}
           options={Object.entries(RS).map(([k, v]) => ({ value: k, label: v.l }))}
@@ -469,70 +469,70 @@ export default function QuotationAnalysis() {
       {/* Key metrics */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         <BentoCard
-          label="à¸à¸·à¸à¸à¸¸à¸ (à¹à¸¡à¹ Battery)"
-          value={`${findBEQuote(quotePrice, 'none', selectedRate)} à¸à¸µ`}
-          sub={`à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸: ${findBE(calcCF(30, 'none', selectedRate))} à¸à¸µ`}
+          label="คืนทุน (ไม่ Battery)"
+          value={`${findBEQuote(quotePrice, 'none', selectedRate)} ปี`}
+          sub={`ราคาตลาด: ${findBE(calcCF(30, 'none', selectedRate))} ปี`}
           accent="green"
         />
         <BentoCard
-          label="à¸à¸³à¹à¸£ 25 à¸à¸µ (à¹à¸¡à¹ Batt)"
+          label="กำไร 25 ปี (ไม่ Batt)"
           value={`${fmt(calcCFQuote(quotePrice, 'none', selectedRate)[24].cum)}`}
-          sub={`à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸: ${fmt(calcCF(30, 'none', selectedRate)[24].cum)} à¸à¸²à¸`}
+          sub={`ราคาตลาด: ${fmt(calcCF(30, 'none', selectedRate)[24].cum)} บาท`}
           accent="orange"
         />
         <BentoCard
-          label="IRR (à¹à¸¡à¹ Battery)"
+          label="IRR (ไม่ Battery)"
           value={`${(calcIRRQuote(quotePrice, 'none', selectedRate) * 100).toFixed(1)}%`}
-          sub={`à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸: ${(calcIRR(30, 'none', selectedRate) * 100).toFixed(1)}%`}
+          sub={`ราคาตลาด: ${(calcIRR(30, 'none', selectedRate) * 100).toFixed(1)}%`}
           accent="purple"
         />
         <BentoCard
-          label="à¸à¸µà¸à¸§à¹à¸²à¸à¸²à¸à¸à¸£à¸°à¸à¸³"
+          label="ดีกว่าฝากประจำ"
           value={`${(calcIRRQuote(quotePrice, 'none', selectedRate) / 0.0072).toFixed(0)}x`}
-          sub="à¹à¸à¸µà¸¢à¸à¸à¸­à¸à¹à¸à¸µà¹à¸¢ 0.72%/à¸à¸µ"
+          sub="เทียบดอกเบี้ย 0.72%/ปี"
           accent="cyan"
         />
       </div>
 
       {/* Charts */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
-        <Card title="ð à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸ vs à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² â Cash Flow 25 à¸à¸µ">
+        <Card title="📈 ราคาตลาด vs ใบเสนอราคา — Cash Flow 25 ปี">
           <ChartWrapper config={compareConfig} />
         </Card>
-        <Card title="ð IRR Improvement â à¸à¸¸à¸à¸à¸¥à¸¢à¸¸à¸à¸à¹ Battery">
+        <Card title="📊 IRR Improvement — ทุกกลยุทธ์ Battery">
           <ChartWrapper config={irrCompareConfig} />
         </Card>
       </div>
 
-      <Card title="ð 5 à¸à¸¥à¸¢à¸¸à¸à¸à¹ Battery â Cumulative Cash Flow (à¸£à¸²à¸à¸²à¹à¸à¹à¸ªà¸à¸­)" className="mb-6">
+      <Card title="📈 5 กลยุทธ์ Battery — Cumulative Cash Flow (ราคาใบเสนอ)" className="mb-6">
         <ChartWrapper config={allStratConfig} />
       </Card>
 
       {/* ===== SECTION 4: Full Comparison Table ===== */}
-      <Card title="ð à¸à¸²à¸£à¸²à¸ Scenarios à¸à¸±à¹à¸à¸«à¸¡à¸ â 30kW + Optimizer (TCS Quote)" badge={`${filtered.length} strategies`} className="mb-6">
+      <Card title="📋 ตาราง Scenarios ทั้งหมด — 30kW + Optimizer (TCS Quote)" badge={`${filtered.length} strategies`} className="mb-6">
         <TableWrap
-          headers={['à¸à¸¥à¸¢à¸¸à¸à¸à¹', 'à¸¥à¸à¸à¸¸à¸à¸£à¸§à¸¡', 'à¸à¸·à¸à¸à¸¸à¸', 'à¸à¸³à¹à¸£ 25 à¸à¸µ', 'IRR', 'à¹à¸à¸µà¸¢à¸à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸', 'à¸à¸³à¹à¸£à¹à¸à¸´à¹à¸¡']}
+          headers={['กลยุทธ์', 'ลงทุนรวม', 'คืนทุน', 'กำไร 25 ปี', 'IRR', 'เทียบราคาตลาด', 'กำไรเพิ่ม']}
           rows={filtered.map((s, i) => [
             s.stratLabel,
-            `${fmt(s.totalInvestQuote)} à¸¿`,
-            s.beQuote >= 99 ? '>25 à¸à¸µ' : `${s.beQuote} à¸à¸µ`,
-            <span key={`p${i}`} className="text-[#30d158] font-bold">{fmt(s.profit25Quote)} à¸¿</span>,
+            `${fmt(s.totalInvestQuote)} ฿`,
+            s.beQuote >= 99 ? '>25 ปี' : `${s.beQuote} ปี`,
+            <span key={`p${i}`} className="text-[#30d158] font-bold">{fmt(s.profit25Quote)} ฿</span>,
             <span key={`irr${i}`} className="text-[#bf5af2] font-bold">{(s.irrQuote * 100).toFixed(1)}%</span>,
-            `à¸à¸·à¸à¸à¸¸à¸ ${s.be >= 99 ? '>25' : s.be} à¸à¸µ / à¸à¸³à¹à¸£ ${fmt(s.profit25)} à¸¿`,
-            <span key={`d${i}`} className="text-[#ff9f0a] font-bold">+{fmt(s.profit25Quote - s.profit25)} à¸¿</span>,
+            `คืนทุน ${s.be >= 99 ? '>25' : s.be} ปี / กำไร ${fmt(s.profit25)} ฿`,
+            <span key={`d${i}`} className="text-[#ff9f0a] font-bold">+{fmt(s.profit25Quote - s.profit25)} ฿</span>,
           ])}
           highlightBest={[0]}
         />
         <p className="text-[11px] text-[#6e6e73] mt-3 italic">
-          * à¸à¸¥à¸¢à¸¸à¸à¸à¹ Battery à¸¢à¸±à¸à¸à¸à¹à¸à¹à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸à¸à¸²à¸ BNEF Forecast â à¹à¸à¸à¸²à¸°à¸à¹à¸à¸à¸¸à¸à¸£à¸°à¸à¸ Solar à¸à¸µà¹à¹à¸à¹à¸£à¸²à¸à¸²à¸à¸£à¸´à¸à¸à¸²à¸à¹à¸à¹à¸ªà¸à¸­
+          * กลยุทธ์ Battery ยังคงใช้ราคาตลาดจาก BNEF Forecast — เชพาะต้นทุนระบบ Solar ที่ใช้ราคาจริงจากใบเสนอ
         </p>
       </Card>
 
       {/* ===== SECTION 5: 20kW vs 30kW Comparison ===== */}
-      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸ 20kW + Battery vs 30kW Solar Only</h3>
-      <Card title="ð 20kW+Battery vs 30kW â à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸²à¸ Engine Model" badge="à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² vs Model" className="mb-6">
+      <h3 className="text-sm font-semibold mb-4 text-[#86868b] tracking-wider uppercase">เปรียบเทียบ 20kW + Battery vs 30kW Solar Only</h3>
+      <Card title="📊 20kW+Battery vs 30kW — ข้อมูลจาก Engine Model" badge="ใบเสนอราคา vs Model" className="mb-6">
         <TableWrap
-          headers={['à¸£à¸²à¸¢à¸à¸²à¸£', '30kW (à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² TCS)', '20kW + Battery (Model)']}
+          headers={['รายการ', '30kW (ใบเสนอราคา TCS)', '20kW + Battery (Model)']}
           rows={(() => {
             const cf30q = calcCFQuote(quotePrice, 'none', selectedRate);
             const cf20b = calcCF(20, 'phase2only', selectedRate);
@@ -540,29 +540,29 @@ export default function QuotationAnalysis() {
             const irr20b = calcIRR(20, 'phase2only', selectedRate);
             const invest20b = getTotalInvest(20, 'phase2only');
             return [
-              ['à¸¥à¸à¸à¸¸à¸ Solar', `${fmt(quotePrice)} à¸¿ (à¹à¸à¹à¸ªà¸à¸­à¸à¸£à¸´à¸)`, `${fmt(SYS[20].cost)} à¸¿ (à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸)`],
-              ['à¸¥à¸à¸à¸¸à¸ Battery', 'â', `${fmt(getBattTotal('phase2only'))} à¸¿ (2 à¸à¹à¸­à¸ à¸à¸µ3+5)`],
-              ['à¸¥à¸à¸à¸¸à¸à¸£à¸§à¸¡', `${fmt(quotePrice)} à¸¿`, `${fmt(invest20b)} à¸¿`],
-              ['Self-Use Rate à¹à¸£à¸´à¹à¸¡à¸à¹à¸', '48%', '52% â 83% (à¸¡à¸µ Batt)'],
-              ['à¸à¸·à¸à¸à¸¸à¸', `${findBEQuote(quotePrice, 'none', selectedRate)} à¸à¸µ`, `${findBE(cf20b)} à¸à¸µ`],
-              ['à¸à¸³à¹à¸£ 25 à¸à¸µ', `${fmt(cf30q[24].cum)} à¸¿`, `${fmt(cf20b[24].cum)} à¸¿`],
+              ['ลงทุน Solar', `${fmt(quotePrice)} ฿ (ใบเสนอจริง)`, `${fmt(SYS[20].cost)} ฿ (ราคาตลาด)`],
+              ['ลงทุน Battery', '—', `${fmt(getBattTotal('phase2only'))} ฿ (2 ก้อน ปี3+5)`],
+              ['ลงทุนรวม', `${fmt(quotePrice)} ฿`, `${fmt(invest20b)} ฿`],
+              ['Self-Use Rate เริ่มต้น', '48%', '52% → 83% (มี Batt)'],
+              ['คืนทุน', `${findBEQuote(quotePrice, 'none', selectedRate)} ปี`, `${findBE(cf20b)} ปี`],
+              ['กำไร 25 ปี', `${fmt(cf30q[24].cum)} ฿`, `${fmt(cf20b[24].cum)} ฿`],
               ['IRR', `${(irr30q * 100).toFixed(1)}%`, `${(irr20b * 100).toFixed(1)}%`],
-              ['à¹à¸à¸²à¸à¸±à¸', 'â à¹à¸¡à¹à¸¡à¸µà¸à¸±à¸à¸«à¸²', 'â à¹à¸¡à¹à¸¡à¸µà¸à¸±à¸à¸«à¸²'],
+              ['เงาบัง', '❌ ไม่มีปัญหา', '❌ ไม่มีปัญหา'],
               ['Inverter', 'SUN2000-M3 (30kW)', 'SUN2000-20K-MB0'],
             ];
           })()}
         />
         <p className="text-[11px] text-[#6e6e73] mt-3 italic">
-          * 20kW à¹à¸à¹à¸£à¸²à¸à¸²à¸à¸¥à¸²à¸à¸à¸²à¸ Model ({fmt(SYS[20].cost)} à¸¿) â à¸à¸§à¸£à¸à¸­à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²à¸à¸£à¸´à¸à¸à¸²à¸ TCS à¹à¸à¸·à¹à¸­à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸à¸à¸µà¹à¹à¸¡à¹à¸à¸¢à¸³
+          * 20kW ใช้ราคาตลาดจาก Model ({fmt(SYS[20].cost)} ฿) — ควรขอใบเสนอราคาจริงจาก TCS เพื่อเปรียบเทียบที่แม่นยำ
         </p>
       </Card>
 
       {/* ===== SECTION 6: What's Included ===== */}
-      <Card title="â à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸µà¹à¸£à¸§à¸¡à¹à¸à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²" className="mb-6">
+      <Card title="✅ รายการที่รวมในใบเสนอราคา" className="mb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2">
           {QUOTES.B.includes.map((item, i) => (
             <div key={i} className="flex items-center gap-2 py-2 border-b border-[#1a1a1a] text-[13px]">
-              <span className="text-[#30d158]">â</span>
+              <span className="text-[#30d158]">✓</span>
               <span className="text-[#c8c8cc]">{item}</span>
             </div>
           ))}
@@ -571,21 +571,21 @@ export default function QuotationAnalysis() {
 
       {/* ===== SECTION 6: CEO Recommendation ===== */}
       <div className="rounded-3xl p-6 mb-6 border-2 border-[#ff9f0a]" style={{ background: 'linear-gradient(135deg, rgba(255,159,10,0.08), rgba(255,103,35,0.04))' }}>
-        <h3 className="text-[#ff9f0a] font-bold text-base mb-4">CEO Decision â à¸ªà¸£à¸¸à¸à¸à¸³à¹à¸à¸°à¸à¸³</h3>
+        <h3 className="text-[#ff9f0a] font-bold text-base mb-4">CEO Decision — สรุปคำแนะนำ</h3>
         <div className="space-y-3 text-[14px] text-[#c8c8cc] leading-relaxed">
           <div className="flex gap-3 items-start">
             <span className="text-[#30d158] text-lg">A</span>
-            <div><strong className="text-[#f5f5f7]">à¸à¹à¸²à¹à¸¡à¹à¹à¸ªà¹ Battery (Solar Only)</strong> â à¹à¸¥à¸·à¸­à¸ <strong className="text-[#ff9f0a]">Quote B (30kW + Optimizer) à¸£à¸²à¸à¸² {fmt(quotePrice)} à¸à¸²à¸</strong>. à¸£à¸²à¸à¸²à¹à¸à¹à¸² Quote A à¹à¸à¹à¹à¸à¹ Optimizer à¸à¸£à¸µ. à¸à¸·à¸à¸à¸¸à¸ <strong className="text-[#30d158]">{findBEQuote(quotePrice, 'none', 'base')} à¸à¸µ</strong> à¸à¸³à¹à¸£ 25 à¸à¸µ <strong className="text-[#30d158]">{fmt(calcCFQuote(quotePrice, 'none', 'base')[24].cum)} à¸à¸²à¸</strong>. à¹à¸¡à¹à¸¡à¸µà¹à¸à¸²à¸à¸±à¸ â Optimizer à¸¢à¸±à¸à¸à¹à¸§à¸¢à¹à¸£à¸·à¹à¸­à¸ monitoring à¸£à¸²à¸¢à¹à¸à¸</div>
+            <div><strong className="text-[#f5f5f7]">ถ้าไม่ใส่ Battery (Solar Only)</strong> → เลือก <strong className="text-[#ff9f0a]">Quote B (30kW + Optimizer) ราคา {fmt(quotePrice)} บาท</strong>. ราคาเท่า Quote A แต่ได้ Optimizer ฟรี. คืนทุน <strong className="text-[#30d158]">{findBEQuote(quotePrice, 'none', 'base')} ปี</strong> กำไร 25 ปี <strong className="text-[#30d158]">{fmt(calcCFQuote(quotePrice, 'none', 'base')[24].cum)} บาท</strong>. ไม่มีเงาบัง — Optimizer ยังช่วยเรื่อง monitoring รายแผง</div>
           </div>
           <div className="border-t border-[#2a2a2a] my-2"></div>
           <div className="flex gap-3 items-start">
             <span className="text-[#bf5af2] text-lg">B</span>
-            <div><strong className="text-[#f5f5f7]">à¸à¹à¸²à¹à¸ªà¹ Battery à¸à¹à¸§à¸¢</strong> â à¹à¸à¸°à¸à¸³ <strong className="text-[#bf5af2]">à¸£à¸°à¸à¸ 20kW (SUN2000-20K-MB0) + Battery</strong> à¹à¸à¸. Self-Use Rate à¸ªà¸¹à¸à¸à¸§à¹à¸² à¸à¸¸à¹à¸¡à¸à¸§à¹à¸²à¹à¸¡à¸·à¹à¸­à¸£à¸§à¸¡ Battery. <strong className="text-[#ff9f0a]">à¸à¸§à¸£à¸à¸­à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸² 20kW à¸à¸²à¸ TCS Power Plus à¹à¸à¸´à¹à¸¡</strong></div>
+            <div><strong className="text-[#f5f5f7]">ถ้าใส่ Battery ด้วย</strong> → แนะนำ <strong className="text-[#bf5af2]">ระบบ 20kW (SUN2000-20K-MB0) + Battery</strong> แทน. Self-Use Rate สูงกว่า คุ้มกว่าเมื่อรวม Battery. <strong className="text-[#ff9f0a]">ควรขอใบเสนอราคา 20kW จาก TCS Power Plus เพิ่ม</strong></div>
           </div>
           <div className="border-t border-[#2a2a2a] my-2"></div>
           <div className="flex gap-3 items-start">
             <span className="text-[#86868b] text-lg">C</span>
-            <div><strong className="text-[#f5f5f7]">à¹à¸à¸·à¹à¸­à¸à¹à¸à¸à¸³à¸£à¸°à¹à¸à¸´à¸</strong> â à¸à¸³à¸£à¸°à¹à¸à¹à¸¡à¸à¸³à¸à¸§à¸à¸«à¸¥à¸±à¸à¸à¸´à¸à¸à¸±à¹à¸à¹à¸ªà¸£à¹à¸ 100% à¹à¸¡à¹à¸¡à¸µà¹à¸à¸´à¸à¸¡à¸±à¸à¸à¸³. à¸£à¸²à¸à¸² {perWattQuote.toFixed(1)} à¸à¸²à¸/à¸§à¸±à¸à¸à¹ <strong className="text-[#30d158]">à¸à¹à¸³à¸à¸§à¹à¸²à¸à¸¥à¸²à¸à¹à¸à¸¥à¸µà¹à¸¢ {((1 - perWattQuote / MARKET.avg) * 100).toFixed(0)}%</strong></div>
+            <div><strong className="text-[#f5f5f7]">เงื่อนไขชำระเงิน</strong> — ชำระเต็มจำนวนหลังติดตั้งเสร็จ 100% ไม่มีเงินมัดจำ. ราคา {perWattQuote.toFixed(1)} บาท/วัตต์ <strong className="text-[#30d158]">ต่ำกว่าตลาดเฉลี่ย {((1 - perWattQuote / MARKET.avg) * 100).toFixed(0)}%</strong></div>
           </div>
         </div>
       </div>
