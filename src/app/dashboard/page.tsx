@@ -11,15 +11,15 @@ import Sensitivity from '@/components/Sensitivity';
 import QuotationAnalysis from '@/components/QuotationAnalysis';
 
 const TABS = [
-  { id: 'quotation', label: 'ð à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²', accent: true },
-  { id: 'top3', label: 'ð Top 3 à¹à¸à¸°à¸à¸³' },
-  { id: 'matrix', label: 'ð Full Matrix' },
-  { id: 'roadmap', label: 'ðºï¸ Roadmap' },
-  { id: 'compare', label: 'âï¸ à¹à¸à¸£à¸µà¸¢à¸à¹à¸à¸µà¸¢à¸' },
-  { id: 'cashflow', label: 'ð° Cash Flow' },
-  { id: 'opportunity', label: 'ð¦ à¸à¹à¸²à¹à¸ªà¸µà¸¢à¹à¸­à¸à¸²à¸ª' },
-  { id: 'battPrice', label: 'ð Battery Price' },
-  { id: 'sensitivity', label: 'ð Sensitivity' },
+  { id: 'quotation', label: '📋 ใบเสนอราคา', accent: true },
+  { id: 'top3', label: '🏆 Top 3 แนะนำ' },
+  { id: 'matrix', label: '📊 Full Matrix' },
+  { id: 'roadmap', label: '🗺️ Roadmap' },
+  { id: 'compare', label: '⚖️ เปรียบเทียบ' },
+  { id: 'cashflow', label: '💰 Cash Flow' },
+  { id: 'opportunity', label: '🏦 ค่าเสียโอกาส' },
+  { id: 'battPrice', label: '📉 Battery Price' },
+  { id: 'sensitivity', label: '📈 Sensitivity' },
 ];
 
 export default function Dashboard() {
@@ -41,7 +41,7 @@ export default function Dashboard() {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 px-6 py-3 flex justify-between items-center border-b border-[#2a2a2a]" style={{background:'rgba(0,0,0,0.8)',backdropFilter:'blur(20px)',WebkitBackdropFilter:'blur(20px)'}}>
         <div className="text-lg font-bold tracking-tight flex items-center gap-2">
-          âï¸ <span className="text-[#ff9f0a]">SolarVerse</span>
+          ☀️ <span className="text-[#ff9f0a]">SolarVerse</span>
         </div>
         <div className="flex items-center gap-3 text-[13px] text-[#86868b]">
           <span className="hidden sm:inline">{email}</span>
@@ -54,7 +54,7 @@ export default function Dashboard() {
         </div>
       </nav>
 
-      {/* Tab Bar â Pill Style */}
+      {/* Tab Bar — Pill Style */}
       <div className="flex justify-center px-6 py-4 gap-1 flex-wrap">
         {TABS.map(tab => (
           <button
